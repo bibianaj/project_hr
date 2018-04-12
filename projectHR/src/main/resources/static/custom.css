@@ -1,0 +1,21 @@
+th.dt-left, td.dt-left { text-align: left !important; }
+th.dt-center, td.dt-center { text-align: center !important; }
+th.dt-right, td.dt-right { text-align: right !important; }
+
+.content-wrapper {
+	background-color: white;
+}
+
+.v-middle {
+	vertical-align: middle !important;
+}
+
+.card {
+	padding-bottom: 35px;
+	border: 1px solid;
+	border-color: aliceblue;
+}
+
+table.dataTable tbody td {
+  vertical-align: middle;
+}

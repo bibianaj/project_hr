@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:fragment="sidebar">
+	<aside class="main-sidebar" style="position: fixed;">
+		<section class="sidebar">
+			<ul class="sidebar-menu" data-widget="tree">
+			
+				<li class="header">MAIN NAVIGATION</li>
+				
+				<li>
+					<a href="/main"> <i class="fa fa-dashboard"></i> <span>Dashboard</span></a>
+				</li>
+				
+				<li class="treeview">
+					<a href="#"> <i class="fa fa-gears"></i> <span>My Account</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i></span></a>
+					
+					<ul class="treeview-menu">
+						<li><a href=""><i class="fa fa-circle-o"></i>My Profile</a></li>
+						<li><a href=""><i class="fa fa-circle-o"></i>Employee Management</a></li>
+					</ul>
+				</li>
+				
+				<li class="treeview">
+					<a href="#"> <i class="ion ion-briefcase"></i> <span>Leave Management</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i></span></a>
+					
+					<ul class="treeview-menu">
+						<li><a href=""><i class="fa fa-circle-o"></i>Leave checker</a></li>
+						<li><a href=""><i class="fa fa-circle-o"></i>Request Leave</a></li>											
+					</ul>
+				</li>
+					
+				<li class="treeview">
+					<a href="#"> <i class="fa fa-group"></i> <span>Payroll</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i> </span></a>
+					
+					<ul class="treeview-menu">
+						<li><a href=""><i class="fa fa-circle-o"></i>Payslips</a></li>
+						<li><a href=""><i class="fa fa-circle-o"></i>Cliam Request</a></li>
+					</ul>
+				</li>
+					
+				<li class="treeview">
+					<a href="#"> <i class="fa fa-table"></i> <span>Tables</span> <span class="pull-right-container"> <i class="fa fa-angle-left pull-right"></i></span></a>
+					
+					<ul class="treeview-menu">
+						<li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+						<li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
+					</ul>
+				</li>
+				
+			</ul>
+		</section>
+	</aside>
+</div>
